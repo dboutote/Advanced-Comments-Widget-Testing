@@ -5,7 +5,7 @@ This is small plugin for testing the Advanced Comments Widget.  It's meant as a 
 
 ## A Quick Overview
 
-1. Add to $instance via the `acw_instance_defaults` filter.
+1. Add to the widget `$instance` via the `acw_instance_defaults` filter.
 1. Add the field to the widget form via the `"acw_form_before_field_{$name}"` filter or the `"acw_form_after_field_{$name}"` filter.
 1. Hook into the `Widget_ACW_Recent_Comments::update()` method to save the field value.
 1. Hook into the `Widget_ACW_Recent_Comments::widget()` method to display the field value.
